@@ -1457,11 +1457,21 @@ input, select, textarea {
 	}
 
 		header.style1 h2 {
-			font-weight: 700;
-			font-size: 2em;
-			letter-spacing: 0.075em;
-			line-height: 1.5em;
+  			font-weight: 700;
+  			font-size: 2em;
+  			letter-spacing: 0.075em;
+  			line-height: 1.5em;
+
+  			color: #0066cc; /* blue-ish like a link */
+  			text-decoration: underline;
+  			cursor: pointer; /* makes the cursor a hand */
+  			transition: color 0.2s ease; /* smooth hover */
 		}
+
+		header.style1 h2:hover {
+  			color: #004999; /* darker shade on hover */
+		}
+
 
 		header.style1 p {
 			color: #b1b4b9;
@@ -1620,6 +1630,13 @@ input, select, textarea {
 			width: 100%;
 			margin: 0 0 2em 0;
 		}
+
+		.side {
+  			display: inline-block;
+  			width: 48%;
+  			vertical-align: middle;
+		}
+
 
 /* Button */
 
@@ -2061,7 +2078,7 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 24em;
-		background: url("../../images/banner.jpg") center center;
+		background: url("../../res/banner.jpg") center center;
 		background-size: cover;
 		padding: 0;
 	}
