@@ -32,3 +32,6 @@ Credits:
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+
+To open Jacob's version go to https://jforjake.github.io/PersonalWebsite/
